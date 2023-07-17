@@ -7,8 +7,21 @@ body{
     align-items:center;
 }
 
-div{
-    width: 10%;
-    height:10%;
-    background-color: black;
+.card-container {
+    width: 25%;
+    height:80%;
+    border-radius: 2%;
+    background-color: blue;
+    position:relative;
+}
+
+.search-container {
+    display:flex;
+    width:90%;
+    margin-left:5%;
+    background-color:red;
+    justify-content: center;
+    position:absolute;
+    bottom:25%;
+    border-radius:2%;
 }
