@@ -96,7 +96,7 @@ body {
 #status-svg {
   width: 75%;
   height: 75%;
-  background: url(icons/sunny.svg) no-repeat center;
+  background: no-repeat center;
   background-size: contain;
   margin-bottom: 10%;
 }
