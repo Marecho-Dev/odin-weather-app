@@ -4,27 +4,55 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <div class="card-container">
-            <div class="search-container">
-                <form action="">
-                    <label for="location">Location</label>
-                    <input type="text" id="location" name="location" placeholder="please enter city or zip code">
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-        </div>
-        <script src="javascript.js" async defer></script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="card-container">
+      <div class="location-info">
+        <div id="day">Tuesday</div>
+        <div id="date">7 July 2023</div>
+        <div id="location">Paris, France</div>
+        <div id="time">5:47pm</div>
+      </div>
+      <div class="weather"></div>
+      <div class="additional-info-container">
+        <div class="weather-info"></div>
+        <div class="prediction-info"></div>
+      </div>
+    </div>
+    <div class="search-container">
+      <form action="">
+        <label for="location">Location</label>
+        <input
+          type="text"
+          id="location"
+          name="location"
+          placeholder="please enter city or zip code"
+        />
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="javascript.js" async defer></script>
+  </body>
 </html>
+<!-- 
+
+<div>location.name</div>
+<div>location.country</div>
+<div>location.localtime</div>
+<div>current.condition.text</div>
+<div>current.humidity</div>
+<div>current.gust_kph/current.gust_mph</div>
+<div>current.temp_c/current.temp_f</div> -->
