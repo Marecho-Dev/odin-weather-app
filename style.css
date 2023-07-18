@@ -1,27 +1,29 @@
-body{
-    width:100vw;
-    height:100vh;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-container {
-    width: 25%;
-    height:80%;
-    border-radius: 2%;
-    background-color: blue;
-    position:relative;
+  width: 25%;
+  height: 80%;
+  border-radius: 2%;
+  background-color: #7dd3fc;
+  position: relative;
 }
 
 .search-container {
-    display:flex;
-    width:90%;
-    margin-left:5%;
-    background-color:red;
-    justify-content: center;
-    position:absolute;
-    bottom:25%;
-    border-radius:2%;
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  position: absolute;
+  bottom: 25%;
+  border-radius: 2%;
 }
